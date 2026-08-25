@@ -7,7 +7,11 @@ bun install
 ```
 
 To run:
-
+1.
+```bash
+ipfs daemon
+```
+2.
 ```bash
 bun run index.ts
 ```
