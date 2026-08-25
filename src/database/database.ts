@@ -1,6 +1,6 @@
-import Database from "better-sqlite3";
+import { Database } from 'bun:sqlite';
 
-const db = new Database("blockchain.db");
+const db = new Database('indexer.db');
 
 db.exec(`
   CREATE TABLE IF NOT EXISTS blocks (
