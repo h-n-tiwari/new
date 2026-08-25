@@ -24,7 +24,7 @@ export async function getBlock(blockNumber: number) {
   }
 
   return {
-    name: block.number,
+    number: block.number,
     hash: block.hash,
     parentHash: block.parentHash,
     timestamp: block.timestamp,
