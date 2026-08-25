@@ -24,6 +24,11 @@ export async function getBlock(blockNumber: number) {
   }
 
   return {
+    name: block.number,
+    hash: block.hash,
+    parentHash: block.parentHash,
+    timestamp: block.timestamp,
+    transactions: block.transactions,
+  };
 
-  }
 }
